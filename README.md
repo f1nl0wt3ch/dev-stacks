@@ -20,6 +20,11 @@
 - **mvn eclipse:eclipse** if you could not import project to eclipse
 - **mvn dependency:get -Dartifact=groupId:artifactId:version** download a single dependency
 
+## Connect database via Heroku CLI
+- **brew doctor && brew update && brew install libpq** install psql on Mac
+- **brew link --force libpq** add symlink psql (and other libpq tools) into /usr/local/bin
+-- **heroku pg:psql postgresql-perpendicular-69500 --app app-name** connect to database
+
 ## Demo
 
 ## Author
